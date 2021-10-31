@@ -3,9 +3,9 @@
 
 // Messages
 
-let Message = ["Monday is cool: ", "Tuesday not so: ", "Wednesday goes to Thursday Yo: ", "Friday is dope :) : ", "Saturday to Sunday Smoke: "];
+let Message = ["Monday is cool: ", "Tuesday not so: ", "Wednesday goes to Thursday Yo: ", "Friday is dope ^__^ : ", "Saturday to Sunday Smoke: "];
 let Message1 = ["we get to eat ", "we get to party ", "sadly, we at work ", "we dance to the moonlight ", "Ohhhh we rest baby "];
-let Message2 = ["and thats on Periodt", "and that's on Gang", "and that's on Piru", "and that's lit", "and that's on Blood"];
+let Message2 = ["and thats on Crazy Frog!", "and that's on Bardock!", "and that's on Big Heffner!", "and that's on Louis Litt!", "and that's on Santa Claus!"];
 
 // Random function
 function randomMessage (input) {
