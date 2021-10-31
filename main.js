@@ -1,6 +1,5 @@
 // Create an APP that generate random message after user input
 
-
 // Messages
 
 let Message = ["Monday is cool: ", "Tuesday not so: ", "Wednesday goes to Thursday Yo: ", "Friday is dope ^__^ : ", "Saturday to Sunday Smoke: "];
