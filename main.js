@@ -37,7 +37,7 @@ for (let i=0; i <= 2; i++) {
         default:
             console.log('Error, no valid input');
     } 
-    console.log(final.toString());
+    console.log(final.join(""));
     
 }
 
