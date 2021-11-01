@@ -15,7 +15,7 @@ function randomMessage (input) {
 
 // Concat messages
 for (let i=0; i <= 2; i++) {
-    //let final = [].toString;
+    //declare empty array for messages
     let final = [];
     let index = Math.floor(Math.random()*i);
     switch (index) {
