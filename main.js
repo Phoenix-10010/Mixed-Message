@@ -13,9 +13,9 @@ function randomMessage (input) {
 
 }
 
-// Concat messages
+// Generate X number of final message
 for (let i=0; i <= 2; i++) {
-    //declare empty array for messages
+    //declare empty array for concat messages
     let final = [];
     let index = Math.floor(Math.random()*i);
     switch (index) {
@@ -29,14 +29,10 @@ for (let i=0; i <= 2; i++) {
             final.push(randomMessage(Message1));
             final.push(randomMessage(Message2));
         break;
-        case 2:
-            final.push(randomMessage(Message));
-            final.push(randomMessage(Message1));
-            final.push(randomMessage(Message2));
-        break;
         default:
             console.log('Error, no valid input');
     } 
+    console.log(index);
     console.log(final.join(""));
 }
 
